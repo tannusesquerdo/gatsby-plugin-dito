@@ -4,7 +4,7 @@ import { stripIndent } from "common-tags"
 exports.onRenderBody = ({ setPostBodyComponents }, pluginOptions) => {
   const { apiKey } = pluginOptions
 
-  // ensures Segment write key is present
+  // ensures Dito api key is present
   if (!apiKey || apiKey.length < 10) console.error("Dito apiKey is invalid.")
 
   if (apiKey) {
