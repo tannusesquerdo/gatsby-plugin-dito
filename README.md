@@ -1,6 +1,6 @@
 # gatsby-plugin-dito
 
-A lightweight & feature-rich Gatsby plugin to easily add [Dito JS snippet](http://developers.dito.com.br/docs/javascript-sdk) to your site.
+A Gatsby plugin to easily add [Dito JS snippet](http://developers.dito.com.br/docs/javascript-sdk) to your site.
 
 ## Install
 
