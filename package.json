@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-dito",
   "description": "Gatsby plugin to add dito onto a site",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "author": "Tannus Esquerdo <tannus.esquerdo@dito.com.br>",
   "bugs": {
     "url": "https://github.com/tannusesquerdo/gatsby-plugin-dito/issues"
