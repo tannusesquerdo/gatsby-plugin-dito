@@ -2,7 +2,7 @@ import React from "react"
 import { stripIndent } from "common-tags"
 
 exports.onRenderBody = ({ setPostBodyComponents }, pluginOptions) => {
-  const { apiKey } = pluginOptions
+  const { apiKey, domain } = pluginOptions
 
   // ensures Dito api key is present
   if (!apiKey || apiKey.length < 10) console.error("Dito apiKey is invalid.")
@@ -17,6 +17,7 @@ exports.onRenderBody = ({ setPostBodyComponents }, pluginOptions) => {
 
           dito.init({
             apiKey: '${apiKey}',
+            domain: '${domain}'
           });`,
         }}
       />,
